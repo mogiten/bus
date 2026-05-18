@@ -1,0 +1,84 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.route-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.route-card {
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.route-card:hover {
+    transform: translateY(-5px);
+}
+
+.route-name {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.destination {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.dest-text {
+    font-weight: bold;
+    color: #333;
+}
+
+.timer {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d9534f;
+    font-family: monospace;
+    margin: 10px 0;
+}
+
+.next-departure {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.time-text {
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #999;
+}
+```

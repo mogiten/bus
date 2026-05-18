@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バス出発カウントダウン</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="current-time" style="text-align: right; font-size: 1.2rem; margin-bottom: 10px;"></div>
+        <h1 class="text-center">🚌 バス出発カウントダウン</h1>
+        
+        <div class="route-container">
+            <!-- ルート 1 -->
+            <div class="route-card" id="route-1">
+                <div class="route-name">ルート 1</div>
+                <div class="destination">行先: <span class="dest-text">高岡神社前</span></div>
+                <div class="timer" id="timer-1">--:--:--</div>
+                <div class="next-departure">出発時刻: <span class="time-text">18:15</span></div>
+            </div>
+
+            <!-- ルート 2 -->
+            <div class="route-card" id="route-2">
+                <div class="route-name">ルート 2</div>
+                <div class="destination">行先: <span class="dest-text">姫高北口</span></div>
+                <div class="timer" id="timer-2">--:--:--</div>
+                <div class="next-departure">出発時刻: <span class="time-text">18:10</span></div>
+            </div>
+        </div>
+
+        <div class="info">
+            <p>※時刻はテスト用の設定値です。</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
