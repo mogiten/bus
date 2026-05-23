@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="main-container">
+        <!-- 左側: カウントダウン -->
+        <div class="countdown-section">
         <div id="current-time" style="text-align: right; font-size: 1.2rem; margin-bottom: 10px;"></div>
         <h1 class="text-center">🚌 バス出発カウントダウン</h1>
         
@@ -15,19 +17,25 @@
             <!-- ルート 1 -->
             <div class="route-card" id="route-1">
                 <div class="route-name">ルート 1</div>
-                <div class="destination">行先: <span class="dest-text">高岡神社前</span></div>
+                <div class="destination">行先: <span class="dest-text">高岡神社前⑨</span></div>
                 <div class="timer" id="timer-1">--:--:--</div>
                 <div class="next-departure">出発時刻: <span class="time-text" id="departure-time-1">--:--</span></div>
+                <hr class="route-divider">
+                <div class="timetable-times" id="timetable-route-1"></div>
             </div>
             <!-- ルート 2 -->
             <div class="route-card" id="route-2">
                 <div class="route-name">ルート 2</div>
-                <div class="destination">行先: <span class="dest-text">姫高北口</span></div>
+                <div class="destination">行先: <span class="dest-text">姫高北口⑩</span></div>
                 <div class="timer" id="timer-2">--:--:--</div>
                 <div class="next-departure">出発時刻: <span class="time-text" id="departure-time-2">--:--</span></div>
+                <hr class="route-divider">
+                <div class="timetable-times" id="timetable-route-2"></div>
             </div>
         </div>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
